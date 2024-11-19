@@ -1,0 +1,10 @@
+# Ignore build output directories
+dist/
+.next/
+
+# If you have other build directories in any other packages, you can add them here as well
+packages/**/dist/
+packages/**/.next/
+
+# Ignore Turborepo cache and other artifacts
+.turbo/

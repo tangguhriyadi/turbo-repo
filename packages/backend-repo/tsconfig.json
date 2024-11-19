@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "baseUrl": ".",
+        "outDir": "dist",
+        "skipLibCheck": true,
+        "paths": {
+            "shared/*": ["../shared/*"]
+        },
+        "typeRoots": ["./types", "./node_modules/@types"]
+    }
+}

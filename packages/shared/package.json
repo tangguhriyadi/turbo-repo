@@ -1,0 +1,6 @@
+{
+    "name": "shared",
+    "private": true,
+    "main": "user.ts",
+    "dependencies": {}
+}
