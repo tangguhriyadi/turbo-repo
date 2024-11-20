@@ -8,3 +8,5 @@ packages/**/.next/
 
 # Ignore Turborepo cache and other artifacts
 .turbo/
+
+node_modules
